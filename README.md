@@ -236,11 +236,11 @@ public class SlotMachineFrame extends JFrame implements ActionListener {
         contentPane.add(createStatusBar(), BorderLayout.SOUTH);
         
         // On stock les images.
-        image1 = new JLabel(new ImageIcon("./Users/marie/eclipse-workspace/12-SlotMachineCasino/images/" + m_game.slot1 +".png"));
+        image1 = new JLabel(new ImageIcon("./votre/chemin/vers/12-SlotMachineCasino/images/" + m_game.slot1 +".png"));
         contentPane.add(image1, BorderLayout.WEST);
-        image2 = new JLabel(new ImageIcon("./Users/marie/eclipse-workspace/12-SlotMachineCasino/images/" + m_game.slot2 +".png"));
+        image2 = new JLabel(new ImageIcon("./votre/chemin/vers/12-SlotMachineCasino/images/" + m_game.slot2 +".png"));
         contentPane.add(image2, BorderLayout.CENTER);
-        image3 = new JLabel(new ImageIcon("./Users/marie/eclipse-workspace/12-SlotMachineCasino/images/" + m_game.slot3 + ".png"));
+        image3 = new JLabel(new ImageIcon("./votre/chemin/vers/12-SlotMachineCasino/images/" + m_game.slot3 + ".png"));
         contentPane.add(image3, BorderLayout.EAST);
         
         JButton btnPlay = new JButton ("Play");
@@ -283,9 +283,9 @@ public class SlotMachineFrame extends JFrame implements ActionListener {
   
   // On mets a jour les images au fure et à mesur du jeu
     private void updateImage() {
-   	 	image1.setIcon(new ImageIcon("./Users/marie/eclipse-workspace/12-SlotMachineCasino/images/" + m_game.slot1 +".png"));
-   	 	image2.setIcon(new ImageIcon("./Users/marie/eclipse-workspace/12-SlotMachineCasino/images/" + m_game.slot2 +".png"));
-   	 	image3.setIcon(new ImageIcon("./Users/marie/eclipse-workspace/12-SlotMachineCasino/images/" + m_game.slot3 + ".png"));
+   	 	image1.setIcon(new ImageIcon("./votre/chemin/vers/12-SlotMachineCasino/images/" + m_game.slot1 +".png"));
+   	 	image2.setIcon(new ImageIcon("./votre/chemin/vers/12-SlotMachineCasino/images/" + m_game.slot2 +".png"));
+   	 	image3.setIcon(new ImageIcon("./votre/chemin/vers/12-SlotMachineCasino/images/" + m_game.slot3 + ".png"));
  
     }
   // On mets a jour les resultats du jeu.
